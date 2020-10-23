@@ -1,4 +1,5 @@
 <?php
+// Exemplo para manipular arrays
 $carros[0][0] = "GM";
 $carros[0][1] = "Cobalt";
 $carros[0][2] = "Onix";
@@ -15,4 +16,5 @@ $carros[2][2] = "Palio";
 $carros[2][3] = "Premio";
 
 echo $carros[1][3];
+echo end($carros[2]);
 ?>
