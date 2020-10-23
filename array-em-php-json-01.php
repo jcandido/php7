@@ -1,8 +1,11 @@
 <?php
+// Converte dados de Array para Json
+header('Content-Type: text/html; charset=utf-8'); // Trata caracteres de acentuação
+
 $pessoas = array();
 
 array_push($pessoas, array(
-    'nome' => 'JCandido',
+    'nome' => 'João Candido',
     'idade' => '58'
 ));
 
@@ -16,7 +19,6 @@ array_push($pessoas, array(
     'idade' => '22'
 ));
 
-print_r($pessoas [0]); // Imprime o conteúdo da Array
-print_r($pessoas [0]['idade']); // Imprime a idade
+echo json_encode($pessoas);
 
 ?>

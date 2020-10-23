@@ -16,5 +16,6 @@ $carros[2][2] = "Palio";
 $carros[2][3] = "Premio";
 
 echo $carros[1][3];
-echo end($carros[2]);
+echo end($carros[2]); // O comando "end" traz o último valor da array
+
 ?>
