@@ -17,7 +17,7 @@ foreach($pasta as $diretorio) {
 
         $info["modified"] = date("d/m/Y H:i:s", filemtime($filename)); // Funcionou parcialmente ???
 
-        $info["url"] = "http://localhost/php7/DIR/" . $filename; // Não funcionou ???
+        $info["url"] = "http://localhost/php7/cenel/DIR/" . $filename; // Não funcionou ???
         
         array_push($data, $info);
 
